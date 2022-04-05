@@ -1,0 +1,62 @@
+/*/////// the '*' selects all //////////// */
+* {
+  margin: 0;
+  padding: 0;
+  /* locks the box to certain size, including borders */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 0, 128);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* /////////the '.' selects classes ///////////*/
+.first {
+  color: rgb(0, 255, 21);
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* /////////the '#' selects id ////////////////*/
+#your-name {
+  background-color: rgb(225, 137, 166);
+  border: 5px solid #444;
+  width: 400px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+/* Apply rule to multiple selectors */
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+a {
+  background-color: yellowgreen;
+}
+
+/* Change image size (keeps proportions) */
+#course-image {
+  width: 300px;
+}
+
+/* Child selector = select only element within element */
+#your-name h2 {
+  color: olivedrab;
+}
